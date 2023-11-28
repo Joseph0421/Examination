@@ -1,0 +1,199 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    height: fit-content;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    color: rgba(245, 245, 245, 0.986);
+    text-align: center;
+    background-image: url(images/gettyimages-171306436-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: rgb(243, 178, 57);
+    scroll-behavior: smooth;
+}
+.img1{
+    width: 80px;
+    height: fit-content;
+    border-radius: 50px;
+    margin: 7px;
+}
+main{
+    padding-top: 130px;
+}
+main h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+main p{
+    font-size: 25px;
+}
+main .span1{
+    width: 40px;
+    height: fit-content;
+    border: none;
+    color: white;
+    background-color:rgb(233, 175, 100);
+    font-size: 10px;
+    padding: 10px;
+    line-height: 7;
+}
+.span2{
+    margin-left: 20px;
+    background: none;
+    border: double  rgb(236, 173, 89);
+    width: 44px;
+    height: fit-content;
+    font-size: 10px;
+    padding: 7.7px;
+}
+main .span1:hover{
+    color: red;
+}
+main .span2:hover{
+    color: red;
+}
+
+.section2{
+    width: 100%;
+    padding: 60px;
+    height: fit-content;
+    text-align: center;
+    font-size: 16px;
+}
+.section2 h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+.section2 .img2{
+    width: 200px;
+    height: fit-content;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.hero1{
+    width: 250px;
+    height: fit-content;
+    font-size: 15px;
+    background-color: rgba(231, 142, 26, 0.514);
+    padding-bottom: 3rem;
+}
+.section3 .img4{
+    width: 250px;
+    height: 185px;
+}
+.section3 .img2{
+    margin-top: -50px;
+    margin-left: 200px;
+    width: 30px;
+    height: fit-content;
+    background-color: rgba(243, 151, 66, 0.747);
+    border: solid rgba(0, 0, 0, 0.678);
+    border-radius: 50px;
+}
+.section3 .img5{
+    width: 250px;
+    height: 185px;
+}
+.section3 h2{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+}
+footer span{
+    border: double burlywood;
+    font-size: 15px;
+}
+.section3 .img6{                                                                        
+    width: 250px;
+    height: 185px;
+}
+
+@media  screen and (max-width:375px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .section1{
+        height: 80vh;
+        width: 100%;
+        font-size: 20px;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        font-size: 10px;
+        gap: 10px;
+        margin-left: 15px;
+
+    }
+    .section1 .img1{
+        width: 40px;
+        margin: 12px;
+    }
+    main{
+        padding-top: 50px;
+    }
+    main h1{
+        font-size: 35px;
+    }
+    main p{
+        font-size: 15px;
+    }
+    .hero{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .hero h2{
+    text-align: center;
+    }
+    .span2{
+        color: black;
+    }
+}
+
